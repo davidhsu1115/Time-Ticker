@@ -15,6 +15,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         // Insert code here to initialize your application
+        NSApp.mainWindow?.contentView?.setFrameSize(NSSize(width: 600.0, height: 300.0))
+        NSApp.mainWindow?.contentMinSize = NSSize(width: 600.0, height: 300.0)
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {

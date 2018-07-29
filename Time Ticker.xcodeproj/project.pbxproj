@@ -12,6 +12,8 @@
 		EA82228D210A3B1000F24DCF /* Time_Ticker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EA82228B210A3B1000F24DCF /* Time_Ticker.xcdatamodeld */; };
 		EA82228F210A3B1200F24DCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA82228E210A3B1200F24DCF /* Assets.xcassets */; };
 		EA822292210A3B1200F24DCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA822290210A3B1200F24DCF /* Main.storyboard */; };
+		EA82229B210C68B600F24DCF /* Period.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA82229A210C68B600F24DCF /* Period.swift */; };
+		EA82229D210DAC3300F24DCF /* PeriodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA82229C210DAC3300F24DCF /* PeriodCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		EA822291210A3B1200F24DCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA822293210A3B1200F24DCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA822294210A3B1200F24DCF /* Time_Ticker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Time_Ticker.entitlements; sourceTree = "<group>"; };
+		EA82229A210C68B600F24DCF /* Period.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Period.swift; sourceTree = "<group>"; };
+		EA82229C210DAC3300F24DCF /* PeriodCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 			children = (
 				EA822287210A3B1000F24DCF /* AppDelegate.swift */,
 				EA822289210A3B1000F24DCF /* ViewController.swift */,
+				EA82229C210DAC3300F24DCF /* PeriodCell.swift */,
+				EA82229A210C68B600F24DCF /* Period.swift */,
 				EA82228E210A3B1200F24DCF /* Assets.xcassets */,
 				EA822290210A3B1200F24DCF /* Main.storyboard */,
 				EA822293210A3B1200F24DCF /* Info.plist */,
@@ -138,6 +144,8 @@
 			files = (
 				EA82228A210A3B1000F24DCF /* ViewController.swift in Sources */,
 				EA82228D210A3B1000F24DCF /* Time_Ticker.xcdatamodeld in Sources */,
+				EA82229B210C68B600F24DCF /* Period.swift in Sources */,
+				EA82229D210DAC3300F24DCF /* PeriodCell.swift in Sources */,
 				EA822288210A3B1000F24DCF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
